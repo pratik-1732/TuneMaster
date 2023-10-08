@@ -1,0 +1,89 @@
+body {
+  width: 100%;
+  height: 100vw;
+  background: color #131312;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* navbar */
+.logo {
+  text-decoration: none;
+}
+.logo img {
+  height: 40px;
+  width: 40px;
+  margin: 3px;
+}
+.prof-name {
+  margin: 3px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Young Serif", serif;
+}
+.search-box {
+  display: flex;
+}
+
+/* img carasol  */
+.img-carosol {
+  height: 400px;
+  width: 100%;
+  background-color: rgb(188, 126, 246);
+}
+
+/* artist info  */
+.artist-info-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(209, 116, 205);
+}
+.artist-info {
+  height: 200px;
+  width: 15%;
+  margin: 5px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.artist-info img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 3px;
+}
+.artist-info p {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* latest release */
+.latest-release {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(105, 207, 173);
+}
+.latest-rel {
+  margin: 5px;
+  padding: 5px;
+  height: 50px;
+  width: 50%;
+  display: inline-block;
+}
+.latest-rel img {
+  height: 60px;
+  width: 60px;
+  padding: 3px;
+  display: inline-block;
+}
+.latest-rel p {
+  font-size: 10px;
+  padding: 3px;
+  display: inline-block;
+}
